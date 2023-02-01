@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind js -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- owl carousel css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Restaurant</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- translated main css -->
+    <link rel="stylesheet" href="../dist/main.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- index css -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="py-6 bg-[#BB2339]">
+      <div class="container mx-auto">
+        <nav class="nav flex items-center justify-between px-6">
+          <a href="#" class="nav__logo">
+            <img src="./images/logo.png" alt="logo" class="w-[135px]" />
+          </a>
+          <ul class="nav__list flex items-center">
+            <li class="nav__list--item">
+              <a href="#" class="text-white">Menu</a>
+            </li>
+            <li class="nav__list--item ml-10">
+              <a href="#" class="text-white">News</a>
+            </li>
+            <li class="nav__list--item ml-10">
+              <a href="#" class="text-white">About us</a>
+            </li>
+            <li class="nav__list--item ml-10">
+              <a href="#" class="text-white">Contact us</a>
+            </li>
+            <li class="nav__list--item ml-10">
+              <button class="py-2 px-8 rounded-[22px] border text-white">
+                Log in
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- INTRO SECTION -->
+    <section id="intro" class="bg-[#BB2339] pt-12 pb-20">
+      <div class="container mx-auto">
+        <div class="into flex px-6">
+          <div class="intro__left w-1/2 text-white">
+            <h4 class="text-2xl mb-11">Chase the new Flavour</h4>
+            <h1 class="text-8xl mb-10 w-3/4 leading-[8rem]">
+              The key to Fine dining
+            </h1>
+            <p class="mb-10 w-3/5">
+              Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+              volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+              aliquam amet tellus
+            </p>
+            <a href="#" class="px-8 py-2 border rounded-[22px]">Explore Menu</a>
+          </div>
+          <div class="intro__right w-1/2">
+            <img src="./images/intro.png" alt="intro" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dishes" class="py-16 bg-gray-100">
+      <div class="container">
+        <div class="dishes px-6">
+          <div class="dishes__title text-[#BB2339] text-5xl font-semibold mb-8">
+            Popular Dishes
+          </div>
+          <ul class="dishes__slider owl-carousel">
+            <li class="dishes__slider--item p-4 bg-white">
+              <img
+                src="./images/shashlik.jpg"
+                alt="shashlik"
+                class="w-full mb-4"
+              />
+              <p class="text-lg text-center mb-4">
+                Barbecue Shish kebab Shashlik Skewer
+              </p>
+              <div class="stars flex justify-center text-lg text-yellow-500">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+              <h4
+                class="text-center text-[#BB2339] text-2xl mt-4 font-semibold"
+              >
+                $12.00
+              </h4>
+            </li>
+            <li class="dishes__slider--item p-4 bg-white">
+              <img
+                src="./images/shashlik.jpg"
+                alt="shashlik"
+                class="w-full mb-4"
+              />
+              <p class="text-lg text-center mb-4">
+                Barbecue Shish kebab Shashlik Skewer
+              </p>
+              <div class="stars flex justify-center text-lg text-yellow-500">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+              <h4
+                class="text-center text-[#BB2339] text-2xl mt-4 font-semibold"
+              >
+                $12.00
+              </h4>
+            </li>
+            <li class="dishes__slider--item p-4 bg-white">
+              <img
+                src="./images/shashlik.jpg"
+                alt="shashlik"
+                class="w-full mb-4"
+              />
+              <p class="text-lg text-center mb-4">
+                Barbecue Shish kebab Shashlik Skewer
+              </p>
+              <div class="stars flex justify-center text-lg text-yellow-500">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+              <h4
+                class="text-center text-[#BB2339] text-2xl mt-4 font-semibold"
+              >
+                $12.00
+              </h4>
+            </li>
+            <li class="dishes__slider--item p-4 bg-white">
+              <img
+                src="./images/shashlik.jpg"
+                alt="shashlik"
+                class="w-full mb-4"
+              />
+              <p class="text-lg text-center mb-4">
+                Barbecue Shish kebab Shashlik Skewer
+              </p>
+              <div class="stars flex justify-center text-lg text-yellow-500">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+              <h4
+                class="text-center text-[#BB2339] text-2xl mt-4 font-semibold"
+              >
+                $12.00
+              </h4>
+            </li>
+            <li class="dishes__slider--item p-4 bg-white">
+              <img
+                src="./images/shashlik.jpg"
+                alt="shashlik"
+                class="w-full mb-4"
+              />
+              <p class="text-lg text-center mb-4">
+                Barbecue Shish kebab Shashlik Skewer
+              </p>
+              <div class="stars flex justify-center text-lg text-yellow-500">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+              <h4
+                class="text-center text-[#BB2339] text-2xl mt-4 font-semibold"
+              >
+                $12.00
+              </h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- script files -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

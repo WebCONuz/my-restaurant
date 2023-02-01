@@ -1,0 +1,24 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.nav .nav__list .nav__list--item button {
+  border-width: 2px;
+  font-weight: 600;
+}
+
+.intro__left,
+.intro__right {
+  /* border: 1px solid #fff; */
+}
+
+.intro__left h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.dishes__slider--item {
+  /* width: 25%; */
+  /* border: 1px solid red; */
+}
