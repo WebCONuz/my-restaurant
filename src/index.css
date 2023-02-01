@@ -91,3 +91,35 @@ body {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
+
+.news__list .news__list--item {
+  width: calc(100% / 3 - 25px);
+}
+
+.video__box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #111111b2, #1111113c);
+}
+
+.play {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery__slider--box {
+  width: 70%;
+  left: 40%;
+}
+
+.gallery__slider--item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
