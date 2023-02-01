@@ -18,7 +18,76 @@ body {
   font-weight: 500;
 }
 
-.dishes__slider--item {
-  /* width: 25%; */
-  /* border: 1px solid red; */
+.dishes__slider .owl-stage-outer {
+  padding: 1rem 0;
+}
+.dishes__slider .owl-nav button {
+  position: absolute;
+  top: -17%;
+  background-color: transparent !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  transition: 0.2s;
+  display: block;
+  border: 1px solid black !important;
+}
+.dishes__slider .owl-nav button span {
+  display: none;
+}
+.dishes__slider .owl-nav button:hover {
+  border-color: #bb233a !important;
+}
+.dishes__slider .owl-nav button.owl-prev {
+  right: 80px;
+  background-image: url("./images/arrow-left.svg") !important;
+  background-size: 25% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.dishes__slider .owl-nav button.owl-next {
+  right: 0;
+  background-image: url("./images/arrow-right.svg") !important;
+  background-size: 25% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.menu__content--items li {
+  width: calc(100% / 4 - 15px);
+}
+
+.testimonial__slider .owl-stage-outer {
+  padding: 1rem 0;
+}
+.testimonial__slider .owl-nav button {
+  position: absolute;
+  bottom: -20%;
+  background-color: transparent !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  transition: 0.2s;
+  display: block;
+  border: 1px solid black !important;
+}
+.testimonial__slider .owl-nav button span {
+  display: none;
+}
+.testimonial__slider .owl-nav button:hover {
+  border-color: #bb233a !important;
+}
+.testimonial__slider .owl-nav button.owl-prev {
+  left: 43%;
+  background-image: url("./images/arrow-left.svg") !important;
+  background-size: 25% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.testimonial__slider .owl-nav button.owl-next {
+  right: 43%;
+  background-image: url("./images/arrow-right.svg") !important;
+  background-size: 25% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }

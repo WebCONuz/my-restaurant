@@ -3,7 +3,7 @@ owl1.owlCarousel({
   loop: true,
   nav: true,
   dots: false,
-  margin: 2,
+  margin: 15,
   responsive: {
     0: {
       items: 1,
@@ -16,6 +16,25 @@ owl1.owlCarousel({
     },
     992: {
       items: 4,
+    },
+  },
+});
+
+var owl2 = $(".testimonial__slider");
+owl2.owlCarousel({
+  loop: true,
+  nav: true,
+  dots: false,
+  margin: 30,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    576: {
+      items: 2,
+    },
+    992: {
+      items: 3,
     },
   },
 });
